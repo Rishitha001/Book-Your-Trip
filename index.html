@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Trip</title>
+    <style>
+        body {
+            width: 99%;
+            background-image: url('https://makeyoutrip.com/wp-content/uploads/2021/08/Seven-Wonder-Of-World.jpg');
+            background-size: cover;
+        }
+
+        .box {
+            width: 100%;
+            height: 70vh;
+            background-color: ;
+            display: flex;
+            justify-content: center;
+        }
+
+        .hi {
+            color: yellow;
+            font-size: 60px;
+            font-style: italic;
+            text-align: center;
+            margin: 0px
+        }
+
+        .innerbox {
+            width: 400px;
+            height: 600px;
+            background-color: rgba(255, 255, 255, 0.629);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h5 {
+            text-align: center;
+        }
+
+        .preference {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        button {
+            color: black;
+            background-color: white;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="hi">Book Your Trip</h1>
+    <hr>
+
+
+
+    <div class="box">
+        <div class="innerbox">
+            <h5>Passenger 1</h5>
+            <input type="text" placeholder="Enter Passenger 1">
+            <h5>Passenger 2</h5>
+            <input type="text" placeholder="Enter Passenger 2">
+            <h5>Passenger 3</h5>
+            <input type="text" placeholder="Enter Passenger 3">
+            <h5>Passenger 4</h5>
+            <input type="text" placeholder="Enter Passenger 4">
+            <h5>Passenger 5</h5>
+            <input type="text" placeholder="Enter Passenger 5">
+            <h5>Passenger 6</h5>
+            <input type="text" placeholder="Enter Passenger 6"> <br>
+            Trip Preference
+            <div class="preference">
+                <input type="radio" name="pref">Taxi
+                <input type="radio" name="pref">Train
+                <input type="radio" name="pref">Flight
+            </div> <br>
+            <button>Submit & Pay</button>
+        </div>
+    </div>
+</body>
+
+</html>
